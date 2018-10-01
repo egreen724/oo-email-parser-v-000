@@ -14,8 +14,7 @@ class EmailParser
   end
   
   def parse 
-  @email_list.split(/\s|,/)
-  @email_list.each do |email|
+  @email_list.split(/\s|,/).uniq 
     
   
 end 

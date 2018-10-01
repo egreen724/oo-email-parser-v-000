@@ -15,7 +15,8 @@ class EmailParser
   
   def parse 
   @email_list.split(/\s|,/)
-  @email_list.reject(" ")
+  @email_list.each do |email|
+    
   
 end 
 end

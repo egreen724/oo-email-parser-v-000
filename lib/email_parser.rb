@@ -16,7 +16,6 @@ class EmailParser
   def parse 
   list_of_emails = @email_list.split(/\s|,/).uniq 
   
-  list_of_emails.delete_if("")
     
 end 
 end

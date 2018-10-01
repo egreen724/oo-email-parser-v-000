@@ -15,4 +15,5 @@ class EmailParser
   
   def parse 
   @email_list.split(" ", ", ")
+  binding.pry
 end

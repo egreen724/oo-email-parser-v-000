@@ -18,6 +18,5 @@ class EmailParser
   
   list_of_emails.delete_if("")
     
-  
 end 
 end

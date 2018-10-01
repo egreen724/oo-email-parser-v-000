@@ -14,7 +14,7 @@ class EmailParser
   end
   
   def parse 
-  @email_list.split(/\s|,/).compact 
+  @email_list.split(" " | ", ").compact 
   
 end 
 end

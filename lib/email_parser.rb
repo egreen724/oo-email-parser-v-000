@@ -14,7 +14,7 @@ class EmailParser
   end
   
   def parse 
-  @email_list.split(/\s|,/).delete_if(&:blank?)
+  @email_list.split(/\s|,/)
   
 end 
 end
